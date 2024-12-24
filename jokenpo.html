@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jokênpoh!</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');     
+            
+            body{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 99vh;
+                background: linear-gradient(to bottom, white, rgb(161, 161, 161));
+                font-size: 20px;
+                font-family: "Open Sans", serif;
+                font-optical-sizing: auto;
+                font-weight: normal;
+                font-style: normal;
+                font-variation-settings: "wdth" 100;
+            }
+            
+            #a, #b, #c { 
+                font-size: 40px;
+                transition: all 0.7s;
+                width: auto;
+            }
+
+            #a:hover, #b:hover, #c:hover { 
+                font-size: 60px;
+            }
+
+            #result {
+                margin-top: 20px;
+                font-size: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <label id="a" onclick="select(0)">PEDRA</label>
+        <label id="b" onclick="select(1)">PAPEL</label>
+        <label id="c" onclick="select(2)">TESOURA</label>
+        <div id="result"></div>
+        <script> 
+            function select(opcao) {
+                const choices = ["PEDRA", "PAPEL", "TESOURA"];
+                const userChoice = choices[opcao];
+                const computerChoice = choices[Math.floor(Math.random() * 3)];
+                let result = "";
+                const elemento = document.body;  // Define the elemento variable
+
+                if (userChoice === computerChoice) {
+                    result = "Empate! Ambos escolheram " + userChoice;
+                } else if ((userChoice === "PEDRA" && computerChoice === "TESOURA") ||
+                           (userChoice === "PAPEL" && computerChoice === "PEDRA") ||
+                           (userChoice === "TESOURA" && computerChoice === "PAPEL")) {
+                    result = "Você ganhou! " + userChoice + " vence " + computerChoice;
+                    
+                } else {
+                    result = "Você perdeu! " + computerChoice + " vence " + userChoice;
+                }
+
+                document.getElementById("result").innerText = result;
+            }
+        </script>
+    </body>
+</html>
