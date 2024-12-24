@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @naksdii
+- 👀 I’m interested in Javascript, Python
+- 🌱 I’m currently learning Js and python
+- 😄 Pronouns: He/him
+- ⚡ Fun fact: I'm only 13 years old.
