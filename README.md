@@ -1,6 +1,5 @@
 # idk what to put here
-
-but, i use nix btw.
+#- but, i use nix btw.
 
  MY SKILLS (maybe just "hello wordl")
  
