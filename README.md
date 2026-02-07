@@ -9,9 +9,7 @@ but, i use nix btw.
 ```js
 console.log("hiiii");
 ```
----
-# MY SKILLS (maybe just "hello wordl"
----
+ MY SKILLS (maybe just "hello wordl")
 [![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff)](#)
 [![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)
