@@ -2,9 +2,6 @@ idk what to put here
 ---
 but, i use nix btw.
 
-```js
-console.log("hiiii");
-```
  MY SKILLS (maybe just "hello wordl")
  
  [![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#)
