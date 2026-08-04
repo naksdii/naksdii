@@ -6,7 +6,7 @@
 
 My name is Vinicius, and I'm 15 year old, my birthday is on 06/02/2026 (month/day/year). 
 
-I love tech and programming, but I don't have so much skills as I wanted (T-T).
+I love tech and programming, but my compiler has trust issues.
 
 
 
