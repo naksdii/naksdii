@@ -10,9 +10,10 @@ I love tech and programming, but my compiler has trust issues.
 
 
 **My objectives:**
--[] touch grass
--[] make a friendship
--[] fix my c++ compiler
+
+- touch grass
+- make a friendship
+- fix my c++ compiler
 
 
 
