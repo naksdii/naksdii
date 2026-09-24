@@ -4,7 +4,7 @@
 
 | 🌐 | 💻 | 📲 |
 
-My name is Vinicius, and I'm 15 year old, my birthday is on 06/02/2026 (month/day/year). 
+My name is Miacelle, and I'm 15 year old, my birthday is on 06/02/2026 (month/day/year). 
 
 I love tech and programming, but my compiler has trust issues. 
 
